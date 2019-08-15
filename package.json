@@ -6,13 +6,14 @@
   "author": "Dovan Sanjaya <dovansanjaya24@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.17.1",
     "next": "^9.0.3",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
   "scripts": {
-  	"dev": "next",
-  	"start": "next start",
-  	"build": "next build"
+    "dev": "node ssr-server.js",
+    "start": "next start",
+    "build": "next build"
   }
 }
